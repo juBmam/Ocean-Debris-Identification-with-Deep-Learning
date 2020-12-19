@@ -28,5 +28,8 @@ most probable classifications for the image. I appended the classifications into
 repeated the process across the entire dataset to create a corpus. Using TFIDF and an NMF pipeline, 
 I was able to identify the most prevalent groupings.
 
+To run this project, unzip the image files and move the contents of the folders into three new folders 
+named: train_jpg, val_jpg, test_jpg
+
 Tools used: Keras Convolutional Neural Network, OpenCV, MobileNet Image Recognition, Transfer Learning,
 SKLearn, Natural Lancuage Processing, TFIDF, NMF
